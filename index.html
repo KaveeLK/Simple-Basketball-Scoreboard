@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Basketball Scoreboard</h1>
+    <div>
+        <table>
+            <tr>
+                <th class="table-head">Home</th>
+                <th class="table-head">Guest</th>
+            </tr>
+
+            <tr>
+                <th class="table-score" id="home-score"></th>
+                <th class="table-score" id="guest-score"></th>
+            </tr>
+
+            <tr>
+                <th class="points-add">
+                    <button onclick="add1pointhome()">+1</button>
+                    <button onclick="add2pointhome()">+2</button>
+                    <button onclick="add3pointhome()">+3</button>
+                </th>
+                <th class="points-add">
+                    <button onclick="add1pointguest()">+1</button>
+                    <button onclick="add2pointguest()">+2</button>
+                    <button onclick="add3pointguest()">+3</button>
+                </th>
+            </tr>
+            <tr>
+                <th class="rest-btn"><button class="reset-home" onclick="rsthome()">Reset</button></th>
+                <th class="rest-btn"><button class="reset-guest" onclick="rstguest()">Reset</button></th>
+            </tr>
+
+        </table>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+
+
+
+
+
+
+</html>
