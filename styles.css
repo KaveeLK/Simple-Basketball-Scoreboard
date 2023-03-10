@@ -7,6 +7,9 @@
 
 body{
     background-color: #0F1626;
+    max-width: 100%;
+    height: auto;
+    margin: 0 20px 0 20px;
 }
 
 h1{
@@ -19,6 +22,7 @@ h1{
 div{
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 table{
@@ -26,6 +30,7 @@ table{
     background-color: #2e2e2e;
     border: 5px solid #0F1626;
     border-collapse:collapse ;
+    max-width: 100%;
     
 }
 
@@ -47,6 +52,7 @@ table{
 .points-add{
     padding: 20px;
     border: 10px solid #0F1626;
+    max-width: 100%;
 }
 
 button{
@@ -58,6 +64,7 @@ button{
     border: 2px solid #F2B705;
     border-radius: 10px;
     background-color: #2e2e2e;
+    max-width: 100%;
 }
 
 .reset-home{
@@ -75,3 +82,4 @@ button{
 .rest-btn{
     border: 10px solid #0F1626;
 }
+
