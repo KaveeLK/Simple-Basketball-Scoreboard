@@ -83,3 +83,9 @@ button{
     border: 10px solid #0F1626;
 }
 
+@media(max-width:700px){
+    body{
+        margin: 0 20px 0 20px;
+    }
+}
+
