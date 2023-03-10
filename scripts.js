@@ -1,8 +1,10 @@
 let homeScore = document.getElementById("home-score")
 homepoint = 0
+homeScore.textContent = homepoint
 
 let guestScore = document.getElementById("guest-score")
 guestpoint = 0
+guestScore.textContent = guestpoint
 
 //Home Points
 
